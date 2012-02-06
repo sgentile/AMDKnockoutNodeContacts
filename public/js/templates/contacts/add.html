@@ -1,0 +1,13 @@
+<fieldset>
+	<legend>Add Contact</legend>
+	<form data-bind="submit: addContact">
+		<!--First Name: <input type="text" id="firstname" name="firstname" class="required" value="${firstname}"/><br/>
+		Last Name: <input type="text" id="lastname"  name="lastname" class="required" value="${lastname}"/><br/>
+		-->
+		<div data-bind="with:contact">
+			First Name: <input type="text" id="firstname" name="firstname" class="required" data-bind="value: firstname"/><br/>
+			Last Name: <input type="text" id="lastname"  name="lastname" class="required" data-bind="value: lastname"/><br/>
+			<input type="submit" value="Add"/>
+		</div>
+	</form>
+</fieldset>
