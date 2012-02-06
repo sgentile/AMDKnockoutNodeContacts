@@ -1,11 +1,11 @@
 {
   "author": "Steve Gentile",
-  "name": "AMDBackboneNodeContacts",
-  "description": "Sample app using Backbone, RequireJS, NodeJs",
+  "name": "AMDKnockoutNodeContacts",
+  "description": "Sample app using KnockoutJs, RequireJS, NodeJs",
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sgentile/AMDBackboneNodeContacts.git"
+    "url": "git://github.com/sgentile/AMDKnockoutNodeContacts.git"
   },
   "scripts": {
 			"start": "node server.js"
